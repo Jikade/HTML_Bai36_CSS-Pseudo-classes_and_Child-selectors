@@ -1,0 +1,24 @@
+/* Tác động lên thẻ p là thẻ con đầu tiên của thẻ khác */
+p:first-child {
+  color: brown;
+}
+
+/* Tác động lên thẻ p là thẻ con cuối cùng của thẻ khác */
+p:last-child {
+  color: blue;
+}
+
+/* "p:nth-child(N)" trong đó "N" là thứ tự của thẻ con */
+p:nth-child(2) {
+  color: chartreuse;
+}
+
+/* "even" là chọn các thẻ h2 con nằm ở vị trí chẵn */
+h2:nth-child(even) {
+  color: chocolate;
+}
+
+/* "odd" là chọn các thẻ h2 con nằm ở vị trí lẻ */
+h2:nth-child(odd) {
+  color: fuchsia;
+}
